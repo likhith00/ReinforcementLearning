@@ -39,12 +39,12 @@ Dynamic programming (DP) in reinforcement learning (RL) is a method used to find
 Here are two main techniques used to find the optimal policy in dynamic programming:
 
 ##### 1. Policy Iteration:
-	Policy Evaluation: Start with an initial policy and iteratively evaluate its value function until convergence. This involves updating the value function estimates for each state according to the current policy until they stabilize.
-	Policy Improvement: Once the value function has converged, improve the policy by selecting actions that maximize the expected return (e.g., by selecting the action with the highest value according to the current value function).
-	Policy Iteration: Repeat the process of policy evaluation and policy improvement until the policy no longer changes, indicating convergence to the optimal policy.
+
+1. Policy Evaluation: Start with an initial policy and iteratively evaluate its value function until convergence. This involves updating the value function estimates for each state according to the current policy until they stabilize.
+2. Policy Improvement: Once the value function has converged, improve the policy by selecting actions that maximize the expected return (e.g., by selecting the action with the highest value according to the current value function).
+3. Policy Iteration: Repeat the process of policy evaluation and policy improvement until the policy no longer changes, indicating convergence to the optimal policy.
 
 ##### 2. Value Iteration:
 
-	Value Iteration: Instead of separate steps for policy evaluation and improvement, value iteration combines them into a single step. It updates the value function estimates for each state by iteratively applying the Bellman optimality equation, which calculates the maximum expected return achievable from each state.
-	Policy Extraction: After the value function converges, the optimal policy can be extracted by selecting actions that maximize the expected return from each state according to the current value function.
-
+1. Value Iteration: Instead of separate steps for policy evaluation and improvement, value iteration combines them into a single step. It updates the value function estimates for each state by iteratively applying the Bellman optimality equation, which calculates the maximum expected return achievable from each state.
+2. Policy Extraction: After the value function converges, the optimal policy can be extracted by selecting actions that maximize the expected return from each state according to the current value function.
