@@ -20,6 +20,8 @@ lets discuss some classes/functions used in the code.
 
 ## Theory (extracted from chatgpt and groq(llama3) ;) and equations from notes  
 
+Note: The theory and the diagram is subject to correction
+
 ### MDP 
 Markov's decision process: RL problems are often formulated as MDPs, which consist of states, actions, transition probabilities, and rewards. The agent interacts with the environment by taking actions, transitioning between states, and receiving rewards.
 1. S is the set of environment states 
@@ -48,3 +50,7 @@ Here are two main techniques used to find the optimal policy in dynamic programm
 
 1. Value Iteration: Instead of separate steps for policy evaluation and improvement, value iteration combines them into a single step. It updates the value function estimates for each state by iteratively applying the Bellman optimality equation, which calculates the maximum expected return achievable from each state.
 2. Policy Extraction: After the value function converges, the optimal policy can be extracted by selecting actions that maximize the expected return from each state according to the current value function.
+
+##### Representation of Both techniques
+
+![Representation of flow of Value iteration and Policy iteration](https://github.com/likhith00/ReinforcementLearning/tree/main/DP/DP flow.png?raw=true)
