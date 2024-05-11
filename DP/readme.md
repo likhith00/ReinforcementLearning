@@ -53,4 +53,4 @@ Here are two main techniques used to find the optimal policy in dynamic programm
 
 ##### Representation of Both techniques
 
-![Representation of flow of Value iteration and Policy iteration](https://github.com/likhith00/ReinforcementLearning/tree/main/DP/DP flow.png?raw=true)
+![Representation of flow of Value iteration and Policy iteration](https://github.com/likhith00/ReinforcementLearning/blob/main/DP/DP%20flow.png)
