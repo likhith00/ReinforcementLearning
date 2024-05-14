@@ -1,7 +1,7 @@
 #### Implementation of MPD in grid world
 In this task, you'll be creating an environment following the Markov Decision Process (MDP) framework. It's a simple grid world similar to the previous exercise, but with two distinct types of terminal states: two positive (G) and one negative (T).
 
-![Representation of flow of Value iteration and Policy iteration](https://github.com/likhith00/ReinforcementLearning/blob/main/)
+![Representation of flow of Value iteration and Policy iteration](https://github.com/likhith00/ReinforcementLearning/blob/main/applications/gymnasium_imp/Gridimage.png)
 
 The rewards are structured as follows:
 
