@@ -11,15 +11,15 @@ Model-Free Control is often contrasted with Model-Based Control, where the agent
 
 Some Popular Model-Free Control algorithms include:
 1. **Q-Learning:** 
-    **Algorithm:** Q-learning is an off-policy algorithm, meaning it updates the Q-values using the maximum possible future reward, regardless of the action taken by the current policy.
+    **Algorithm:** Q-learning is an off-policy algorithm, meaning it updates the Q-values using the maximum possible future reward, regardless of the action taken by the current policy.</br>
     **Update Rule:** 
     ```math
     Q(s, a) ← Q(s, a) + α[r + γmax(Q(s', a')) - Q(s, a)]
-s
+
 2. **SARSA:**  
-    **Algorithm:** SARSA is an on-policy algorithm, which means it updates the Q-values (action-value function) based on the action actually taken by the current policy.
+    **Algorithm:** SARSA is an on-policy algorithm, which means it updates the Q-values (action-value function) based on the action actually taken by the current policy. </br>
     **Update Rule:** 
-    ```math 
+    ```math
     Q(s, a) ← Q(s, a) + α[r + γQ(s', a') - Q(s, a)]
 
 3. Deep Q-Networks (DQN)
